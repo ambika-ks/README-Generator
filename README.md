@@ -42,6 +42,9 @@ Screenshot of the generated README file,
 
 ![Generated](./starter/images/readme.jpg)
 
+ A Walkthrough video is available at :
+https://drive.google.com/file/d/1E3V1u732vGU_CQ8nkjnCnUKFZbJuILVb/view
+
 * The deployed project is available at :
  https://ambika-ks.github.io/README-Generator/
 

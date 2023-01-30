@@ -9,7 +9,6 @@ function LicenseBadge(License){
   return badges[License]
 }
 
-
 // function to generate markdown for README
 function generateMarkdown(answers) {
   return `

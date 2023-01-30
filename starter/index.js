@@ -63,7 +63,7 @@ const questions = [
 
 
 
-// function to initialize program
+// function to initialize and also to write to MYREADME file
 function init() {
     return inquirer.prompt(questions)
     .then((answers) => {

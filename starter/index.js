@@ -61,9 +61,27 @@ const questions = [
 function writeToFile(fileName, data) {
 }
 
+
+
 // function to initialize program
 function init() {
+    return inquirer.prompt(questions)
+    .then((answers) => {
+     const mark=generateMarkdown(answers)
+     fs.writeFile('MYREADME.md',mark,function(err){
+         if (err){
+             console.log('Could not save File')
+         } 
+         else{
+            console.log(`SUCCESS !! New readme file MYREADME.md generated inside the current folder`)
+         }
+         })
+    })
 
+
+    .catch((error)=>{
+        console.log(error)
+    })
 }
 
 // function call to initialize program

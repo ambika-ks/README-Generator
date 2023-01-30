@@ -42,6 +42,9 @@ Screenshot of the generated README file,
 
 ![Generated](./starter/images/readme.jpg)
 
+* The deployed project is available at :
+ https://ambika-ks.github.io/README-Generator/
+
 ## 📝NOTE
 * Create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
 

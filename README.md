@@ -1,7 +1,7 @@
 # README-Generator
  A command-line application that accepts user input.
 
-## Your Task
+## 📝Task
 
 When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project. 
 
@@ -13,7 +13,7 @@ The application will be invoked by using the following command in bash:
 
 node index.js 
 
-## User Story
+## 📝User Story
 
 * As a developer, I want a README generator so that I can quickly create a professional README for a new project
 
@@ -39,7 +39,7 @@ node index.js
     * When a user clicks on the links in the **Table of Contents** then they are taken to the corresponding section of the README
 
 
-## NOTE
+## 📝NOTE
 * Create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
 
 * Make sure that your repo includes a `package.json` with the required dependencies. You can create one by running `npm init` when you first set up the project, before installing any dependencies.

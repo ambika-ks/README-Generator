@@ -14,7 +14,7 @@ function LicenseBadge(License){
 function generateMarkdown(answers) {
   return `
 
-# ${data.name}
+# ${answers.name}
 ${LicenseBadge(answers.license)} 
 ## Table of Content
   - [Project Description](#description)
